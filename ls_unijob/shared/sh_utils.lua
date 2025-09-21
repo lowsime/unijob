@@ -5,14 +5,14 @@ WebHook = function(url, title, fields)
     end
     PerformHttpRequest(url, function(status, text)
     end, "POST", json.encode {
-        username   = "Hazard City",
-        avatar_url = "https://i.postimg.cc/wMPTRYQL/hazardgif.gif",
+        username   = "Nome Server tuo",
+        avatar_url = "immagine png o gif",
         embeds     = {{
             title = title,
             color = 3999972,
-            author = {name = "Hazard City", icon_url = "https://i.postimg.cc/wMPTRYQL/hazardgif.gif"},
+            author = {name = "Nome Server tuo", icon_url = "immagine png o gif"},
             fields = embedFields,
-            footer = {text = ("Hazard City > | %s"):format(os.date("%x | %X %p"))}
+            footer = {text = ("Nome Server tuo > | %s"):format(os.date("%x | %X %p"))}
         }}
     }, {["Content-Type"] = "application/json"})
 end
@@ -27,4 +27,5 @@ ApriArmadietto = function()
     elseif GetResourceState("fivem-appearance") == "started" then
         exports["fivem-appearance"]:setPedAppearance(cache.ped)
     end
+
 end
