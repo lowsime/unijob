@@ -1,0 +1,209 @@
+[
+    {
+        "blips": [],
+        "garage": [
+            {
+                "heading": 324.7939147949219,
+                "name": "GARAGE 1",
+                "pos2": {
+                    "z": 20.74745941162109,
+                    "x": 87.8719482421875,
+                    "y": -1969.102783203125
+                },
+                "pos1": {
+                    "z": 20.92207908630371,
+                    "x": 93.58536529541016,
+                    "y": -1956.60986328125
+                },
+                "listaveicoli": [
+                    {
+                        "mingrade": 0,
+                        "color": {
+                            "z": 0.0,
+                            "w": 1.0,
+                            "x": 247.0,
+                            "y": 0.0
+                        },
+                        "label": "Veicolo",
+                        "targa": "lowsime",
+                        "fullkit": true,
+                        "name": "blista"
+                    }
+                ],
+                "mingrade": 0
+            }
+        ],
+        "camerino": [
+            {
+                "pos": {
+                    "z": 20.75165557861328,
+                    "x": 109.97315216064452,
+                    "y": -1925.404541015625
+                },
+                "mingrade": 0
+            }
+        ],
+        "label": "Ballas",
+        "grades": [
+            {
+                "numgrado": 0,
+                "salary": 0,
+                "label": "Recluta",
+                "name": "recluta"
+            },
+            {
+                "numgrado": 1,
+                "salary": 0,
+                "label": "Maggiore",
+                "name": "maggiore"
+            },
+            {
+                "numgrado": 2,
+                "salary": 0,
+                "label": "Vice Boss",
+                "name": "viceboss"
+            },
+            {
+                "numgrado": 3,
+                "salary": 0,
+                "label": "Boss",
+                "name": "boss"
+            }
+        ],
+        "bossmenu": [
+            {
+                "pos": {
+                    "z": 20.75260543823242,
+                    "x": 108.9516372680664,
+                    "y": -1956.724365234375
+                },
+                "mingrade": 3
+            }
+        ],
+        "depositi": [
+            {
+                "mingrade": 0,
+                "peso": 1000,
+                "name": "Deposito",
+                "slots": 100,
+                "pos": {
+                    "z": 20.66336059570312,
+                    "x": 118.53219604492188,
+                    "y": -1942.8502197265626
+                }
+            }
+        ],
+        "name": "ballas"
+    },
+    {
+        "depositi": [
+            {
+                "mingrade": 0,
+                "peso": 1000,
+                "name": "Deposito",
+                "slots": 100,
+                "pos": {
+                    "z": 29.26952362060547,
+                    "x": 129.36929321289066,
+                    "y": -1281.135498046875
+                }
+            }
+        ],
+        "garage": [],
+        "camerino": [
+            {
+                "mingrade": 0,
+                "pos": {
+                    "z": 28.768798828125,
+                    "x": 108.09478759765624,
+                    "y": -1304.9207763671876
+                }
+            }
+        ],
+        "label": "Vanilla",
+        "grades": [
+            {
+                "numgrado": 1,
+                "salary": 100,
+                "label": "vice",
+                "name": "viceboss"
+            },
+            {
+                "numgrado": 1,
+                "salary": 100,
+                "label": "bo",
+                "name": "bos"
+            },
+            {
+                "numgrado": 2,
+                "salary": 100,
+                "label": "Boss",
+                "name": "boss"
+            }
+        ],
+        "bossmenu": [
+            {
+                "pos": {
+                    "z": 29.07988548278808,
+                    "x": 78.56815338134766,
+                    "y": -1273.159912109375
+                },
+                "mingrade": 2
+            },
+            {
+                "pos": {
+                    "z": 29.14644050598144,
+                    "x": 151.77981567382813,
+                    "y": -1302.2933349609376
+                },
+                "mingrade": 2
+            }
+        ],
+        "blips": [],
+        "name": "vanilla"
+    },
+    {
+        "blips": [],
+        "garage": [],
+        "label": "LowSIme",
+        "name": "lowsime",
+        "grades": [
+            {
+                "numgrado": 1,
+                "name": "viceboss",
+                "label": "Vice OG",
+                "salary": 100
+            },
+            {
+                "numgrado": 1,
+                "name": "OG",
+                "label": "boss",
+                "salary": 100
+            }
+        ],
+        "bossmenu": [
+            {
+                "pos": {
+                    "z": 29.28823661804199,
+                    "x": -241.42027282714845,
+                    "y": -990.6298217773438
+                },
+                "mingrade": 0
+            }
+        ],
+        "depositi": [
+            {
+                "mingrade": 0,
+                "peso": 1000,
+                "name": "Deposito",
+                "slots": 100,
+                "pos": {
+                    "x": -235.89613342285157,
+                    "y": -986.2722778320313,
+                    "z": 29.13276290893554
+                }
+            }
+        ],
+        "camerino": []
+    }
+]
